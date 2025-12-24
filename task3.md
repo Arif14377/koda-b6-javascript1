@@ -8,7 +8,7 @@ varInput@{shape: lean-r, label: "input: fullName, age, hobbies"}
 isJane@{shape: diamond, label: 'fullName === "Jane"'}
 trueJane@{shape: lean-r, label: '"output: Hello Jane"'}
 falseJane@{shape: diamond, label: 'fullName === "Dan" || fullName === "John"'}
-trueDanJohn@{shape: lean-r, label: '"Whatsup Dan | John"'}
+trueDanJohn@{shape: lean-r, label: '"Whatsup Dan" | "Whatsup John"'}
 isAge@{shape: diamond, label: "Age > 18"}
 trueAge@{shape: lean-r, label: 'output: "How are you today?"'}
 falseAge@{shape: lean-r, label: 'output: "Lets go to school!"'}
