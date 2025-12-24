@@ -9,16 +9,13 @@ input-r@{shape: lean-r, label: "input: jariJariLingkaran"}
 pi@{shape: rect, label: "pi"}
 hitungLuas@{shape: rect, label: "luasLingkaran = pi * jariJariLingkaran * jariJariLingkaran"}
 hitungKeliling@{shape: rect, label: "kelilingLingkaran = 2 * pi * jariJariLingkaran"}
-outputLuas@{shape: lean-r, label: "output: luasLingkaran"}
-outputKeliling@{shape: lean-r, label: "output: kelilingLingkaran"}
+output@{shape: lean-r, label: "output: luasLingkaran, kelilingLingkaran"}
 stop@{shape: dbl-circ, label: "Selesai"}
 
 start --> input-r
 input-r-->pi
 pi-->hitungLuas
-pi-->hitungKeliling
-hitungLuas-->outputLuas
-hitungKeliling-->outputKeliling
-outputLuas-->stop
-outputKeliling-->stop
+hitungLuas-->hitungKeliling
+hitungKeliling-->output
+output-->stop
 ```
