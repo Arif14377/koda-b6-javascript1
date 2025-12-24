@@ -3,7 +3,7 @@
 // koda-b6-javascript1
 
 let jariJariLingkaran = 15
-let pi
+let pi = 3.14
 if(jariJariLingkaran % 7 === 0) {
     pi = 22/7
 } else {

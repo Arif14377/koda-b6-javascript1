@@ -6,7 +6,7 @@
 flowchart TD
 start@{shape: circle, label: "Mulai"}
 input-r@{shape: lean-r, label: "input: jariJariLingkaran"}
-piKosong@{shape: rect, label: "pi"}
+piKosong@{shape: rect, label: "pi = 3.14"}
 pi@{shape: rect, label: "pi = 22/7"}
 pi2@{shape: rect, label: "pi = 3.14"}
 whatPi@{shape: diamond, label: "jariJariLingkaran % 7 === 0"}
