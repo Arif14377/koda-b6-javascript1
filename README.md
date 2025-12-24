@@ -6,6 +6,7 @@
 flowchart TD
 start@{shape: circle, label: "Mulai"}
 input-r@{shape: lean-r, label: "input: jariJariLingkaran"}
+piKosong@{shape: rect, label: "pi"}
 pi@{shape: rect, label: "pi = 22/7"}
 pi2@{shape: rect, label: "pi = 3.14"}
 whatPi@{shape: diamond, label: "jariJariLingkaran % 7 === 0"}
@@ -15,7 +16,8 @@ output@{shape: lean-r, label: "output: luasLingkaran, kelilingLingkaran"}
 stop@{shape: dbl-circ, label: "Selesai"}
 
 start --> input-r
-input-r-->whatPi
+input-r-->piKosong
+piKosong-->whatPi
 whatPi--True-->pi
 whatPi--False-->pi2
 pi-->hitungLuas
