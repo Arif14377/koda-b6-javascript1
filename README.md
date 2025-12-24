@@ -14,8 +14,8 @@ outputKeliling@{shape: lean-r, label: "output: kelilingLingkaran"}
 stop@{shape: dbl-circ, label: "Selesai"}
 
 start --> input-r
--->pi
--->hitungLuas
+input-r-->pi
+pi-->hitungLuas
 pi-->hitungKeliling
 hitungLuas-->outputLuas
 hitungKeliling-->outputKeliling
