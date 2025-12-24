@@ -15,9 +15,8 @@ stop@{shape: dbl-circ, label: "Selesai"}
 
 start --> input-r
 -->pi
--->jariJariLingkaran
 -->hitungLuas
-jariJariLingkaran-->hitungKeliling
+pi-->hitungKeliling
 hitungLuas-->outputLuas
 hitungKeliling-->outputKeliling
 outputLuas-->stop
