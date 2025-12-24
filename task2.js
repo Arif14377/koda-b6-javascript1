@@ -3,8 +3,8 @@
 // 3. membuat program untuk memunculkan string "Tech Academy" ketika mengakses objek obj.str[3][1][2].man.tech.academy"
 // 4. membuat program untuk memunculkan string "Apple" ketika mengakses array my[0].favourite[3].fruit.is
 // 5. memunculkan number 32 ketika kalkulasi num.first[1] + num.second[2]
-const objek = {we:{are:{the:{best:"Koda"}}}}
-console.log(objek.we.are.the.best)
+const we = {are:{the:{best:"Koda"}}}
+console.log(we.are.the.best)
 
 const hello = {world:"Hello World"}
 console.log(hello.world)
