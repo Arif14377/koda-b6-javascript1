@@ -11,7 +11,7 @@ active@{shape: lean-r, label: 'output: "Hello"'}
 nonactive@{shape: lean-r, label: 'output: "Hi"'}
 isNum100@{shape: diamond, label: "num === 100"}
 100@{shape: lean-r, label: "output: num"}
-bonjour@{shape: lean-r, label: '"bonjour!"'}
+bonjour@{shape: lean-r, label: 'output: "bonjour!"'}
 stop@{shape: dbl-circ, label: "selesai"}
 
 
