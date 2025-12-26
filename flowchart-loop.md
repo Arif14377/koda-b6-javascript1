@@ -4,7 +4,7 @@
 ```mermaid
 flowchart TD
 
-start@{shape: circle, label: "Mulai"}
+start@{shape: circle, label: "Start"}
 init@{shape: lean-r, label: "input: x"}
 logX@{shape: lean-r, label: "output: x"}
 isTrue@{shape: diamond, label: "x <= 10"}
