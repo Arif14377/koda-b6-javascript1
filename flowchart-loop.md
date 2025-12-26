@@ -21,6 +21,6 @@ isTrue--False-->stop
 logX-->isTrue2
 isTrue2--True-->true
 isTrue2--False-->incr
-true-->isTrue
+true-->incr
 incr-->isTrue
 ```
