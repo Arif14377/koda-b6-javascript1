@@ -5,12 +5,12 @@
 flowchart TD
 
 start@{shape: circle, label: "Mulai"}
-init@{shape: rect, label: "inisiasi: x = 1"}
+init@{shape: lean-r, label: "input: x"}
 logX@{shape: lean-r, label: "output: x"}
-isTrue@{shape: diamond, label: "x <= 10?"}
-isTrue2@{shape: diamond, label: "x === 5?"}
+isTrue@{shape: diamond, label: "x <= 10"}
+isTrue2@{shape: diamond, label: "x === 5"}
 true@{shape: rect, label: "x = 10"}
-incr@{shape: rect, label: "increment: x++"}
+incr@{shape: rect, label: "x++"}
 stop@{shape: dbl-circ, label: "Stop"}
 
 
